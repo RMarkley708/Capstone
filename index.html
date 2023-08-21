@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Design Capstone Project</title>
+        <link rel="stylesheet" href="css/capstone.css">
+        <script defer src="js/index.js"></script>
+        <script defer src="js/capstone.js"></script>
+        <!--font awesome-->
+        <script src="https://kit.fontawesome.com/e7cb26a489.js" crossorigin="anonymous"></script>
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">  
+    </head> 
+
+    <body>
+        <!--navbar-->
+        <header class="fixed-top"><!--header hack to correct issue with fixed navbar from working-->
+            <nav id="navbar" class="navbar">
+                <a href="#" class="nav-branding"><img src="images/RM.svg" alt="RM-logo"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="impressum.html" class="nav-link">impressum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="features.html" class="nav-link">features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">home</a>
+                    </li>
+                </ul>
+                <!--hamburger menu-->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <!--(behind navbar) welcome bar-->
+        <aside>
+            <a href="#" class="top-branding"><img src="images/RM.svg" alt="RM-logo"></a>
+            <p>nice to have you here!</p>
+            <ul class="top-menu">
+                <li class="nav-item">
+                    <a href="impressum.html" class="nav-link">impressum</a>
+                </li>
+                <li class="nav-item">
+                    <a href="features.html" class="nav-link">features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">home</a>
+                </li>
+            </ul>
+        </aside>
+        <!--header section-->
+        <header>
+            <h1><b>web design capstone</b></h1>
+            <div>a simple &amp; responsive static web page created by ryan markley</div>
+        </header>
+
+        <section>
+            <h2><b>web design capstone project</b></h2>
+                <p>Welcome to my capstone project of Michigan Univerity's Coursera specialization <u>Web Design for Everybody: Basics of Web Development &amp; coding</u>. The project's objective: Design and code a responsive and interactive static web page from scratch.</p>
+                <h3><u><b>capstone specs</b></u></h3>
+            <!--Modal - capstone specs -->
+            <div id="modal" class="modal">
+                <span id="modal-close" class="modal-close">&times;</span>
+                <div class="modal-content">
+                  <div class="modal-slider">
+                    <div class="modal-slide">
+                      <!-- Content for slide 1 -->
+                      <div class="modal-box top-box">
+                        <p>design &amp; code your site from scratch</p>
+                      </div>
+                        <div class="modal-box bottom-boxes">
+                            <div class="modal-box bottom-box-left">
+                                <!-- Content for left bottom box of slide 1 -->
+                            <div class="sprite-computer-code sprite-animation-computer-code"></div>
+                            </div>
+                            <!-- Content for right bottom box of slide 1 -->
+                            <div class="modal-box bottom-box-right">
+                                <ul>
+                                    <li>create your web page from scratch - without the help of blueprints or templates</li>
+                                    <li>each page must validate as <u>validator.w3.org</u><br>- use proper semantic HTML tags</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="modal-slide">
+                        <!-- Content for slide 2 -->
+                      <div class="modal-box top-box">
+                        <p>make your site responsive</p>
+                      </div>
+                        <div class="modal-box bottom-boxes">
+                            <div class="modal-box bottom-box-left">
+                            <!-- Content for left bottom box of slide 2 -->
+                            <div class="sprite-devices-small sprite-animation-devices-small"></div>
+                            </div>
+                            <!-- Content for right bottom box of slide 2 -->
+                            <div class="modal-box bottom-box-right">
+                                <ul>
+                                    <li>create as least two viewports - desktop &amp; mobile</li>
+                                    <li>extra: create an additional viewport for tablets</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-slide">
+                        <!-- Content for slide 3 -->
+                      <div class="modal-box top-box">
+                        <p>make your site interactive</p>
+                      </div>
+                        <div class="modal-box bottom-boxes">
+                            <div class="modal-box bottom-box-left">
+                                <!-- Content for left bottom box of slide 3 -->
+                                <div class="sprite-computer-pop sprite-animation-computer-pop"></div>      
+                            </div>
+                            <!-- Content for right bottom box of slide 3 -->
+                            <div class="modal-box bottom-box-right">
+                                <ul>
+                                    <li>add JavaScript to add interactivity</li>
+                                    <li>use CSS and JavaScript to animate elements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- previous/next buttons-->
+                    <button id="modal-prev" class="modal-button prev-button">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button id="modal-next" class="modal-button next-button">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+            </div> 
+            <!--box-->
+            <div class="wrapper2">
+                <div class="box2">
+                    <div class="front-face2">
+                        <div class="icon2">
+                            <div class="open-modal">
+                            <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <!--fading text-->
+                        <div class="word-carousel">
+                            <span class="word">responsive</span>
+                            <span class="word">interactive</span>
+                            <span class="word">coded from scratch</span>
+                        </div>   
+                    </div>         
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <!--the five courses section-->
+            <h2><b>the five courses</b></h2>
+                <p>The five courses of the specialization offer a first overview of frontend development. They provide basic knowledge of HTML5, CSS3, and JavaScript. Nevertheless, the bulk of this web page is based on various textbooks, dissecting &amp; breaking other people's code, and especially writing and rewriting a lot of code - learn on the fly.</p>
+            <h3><u><b>web design for everybody courses</b></u></h3>
+            <!--michigan flip-box-->
+            <div class="wrapper">
+                <div class="box" onclick="flip(this)">
+                    <div class="front-face">
+                        <div class="icon">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <!--michigan logo-->
+                        <img src="images/M-logo.png" alt="Michigan Logo"> 
+                    </div>
+
+                    <div class="back-face">
+                        <div class="icon_back">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <p>Web Design for Everybody on <a href="https://www.coursera.org/specializations/web-design?">coursera.org</a></p>
+                    </div>
+                </div>
+                <!--Introduction to HTML5 flip-box-->
+                <div class="box" onclick="flip(this)">
+                    <div class="front-face">
+                        <div class="icon">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <span>Introduction to HTML5</span>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="icon_back">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <p>There is a strong emphasis on adhering to syntactic standards for validation and semantic standards to promote wide accessibility.</p>
+                    </div>
+                </div>
+                <!--Introduction to CSS3 flip-box-->
+                <div class="box" onclick="flip(this)">
+                    <div class="front-face">
+                        <div class="icon">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <span>Introduction to CSS3</span>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="icon_back">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <p>The emphasis is on learning how to write CSS rule, how to test code &amp; how to establish good programming habits.</p>
+                    </div>
+                </div>
+                <!--Interactivity with JavaScript flip-box-->
+                <div class="box" onclick="flip(this)">
+                    <div class="front-face">
+                        <div class="icon">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <span>Interactivity with JavaScript</span>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="icon_back">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <p>This is about the basics of JavaScript: React to DOM Events and dynamically alter the contents and style of a page.</p>
+                    </div>
+                </div>
+                <!--Advanced Styling with Responsive Design flip-box-->
+                <div class="box" onclick="flip(this)">
+                    <div class="front-face">
+                        <div class="icon">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <span>Advanced Styling with Responsive Design</span>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="icon_back">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i></div>
+                        <p>This course expands upon the basic knowledge of CSS3 to include topics such as wireframes, fluid design & media queries.</p>
+                    </div>
+                </div>
+                <!--Web Design for Everybody Capstone flip-box-->
+                <div class="box" onclick="flip(this)">
+                    <div class="front-face">
+                        <div class="icon">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                        </div>
+                        <span>Web Design for Everybody Capstone</span>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="icon_back">
+                            <i class="fa-solid fa-repeat fa-rotate-90"></i></div>
+                        <p>Demonstrate the ability to design and implement a responsive site for a minimum of three platforms. Adherence to validation standards is required.</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section>
+            <!--my implementation section-->
+            <h2><b>my implementation</b></h2>
+                <p>My approach was to get my hands dirty. I learned most things on the fly, while writing code and pondering about how to solve a given problem or implement an idea. Fast forward to the next page, where I discuss key features and link to my CodePen.</p>
+                <h3><b><u>make, break &amp; sometimes hack</u></b></h3>
+                <!--glyph box-->
+                <div class="wrapper">
+                    <div class="box" onclick="flip(this)">
+                        <div class="front-face">
+                            <div class="icon">
+                                <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                            </div>
+                            <span class="color-change">
+                                <!--glyph-->
+                                <a href="features.html" class="nav-link"><i class="fa-solid fa-forward-fast fa-3x"></i></a>
+                            </span>
+                        </div>
+                        
+                        <div class="back-face">
+                            <div class="icon_back">
+                                <i class="fa-solid fa-repeat fa-rotate-90"></i>
+                            </div>
+                            <i class="fa-brands fa-codepen fa-4x"></i><br>
+                            <a href="https://codepen.io/RMarkley708">CodePen</a>
+                        </div>
+                    </div>
+                </div>    
+        </section>
+        <!--footer section-->
+        <footer>
+            <p><b>a resposive &amp; simple static web page using HTML5, CSS3, and JavaScript</b></p>
+            <p>coded by ryan markley<br>
+            <a href="#" class="footerImg"><img src="images/RMred.svg" alt="RM-logo"></a></p>
+            <!--footer nav links-->
+            <ul>
+                <li class="footer-link">
+                    <a href="impressum.html" class="nav-link"><u>impressum</u></a>
+                </li>
+                <li class="footer-link">
+                    <a href="features.html" class="nav-link"><u>features</u></a>
+                </li>
+                <li class="footer-link">
+                    <a href="index.html" class="nav-link"><u>home</u></a>
+                </li>
+            </ul>
+        </Footer>
+        <!--bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>  

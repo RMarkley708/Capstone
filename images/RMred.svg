@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25mm"
+   height="25mm"
+   viewBox="0 0 24.999998 24.999999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="RMred.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.6924555"
+     inkscape:cx="230.72985"
+     inkscape:cy="158.94066"
+     inkscape:window-width="1776"
+     inkscape:window-height="1083"
+     inkscape:window-x="992"
+     inkscape:window-y="106"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="359.83221"
+       y="232.79785"
+       width="111.08121"
+       height="36.633163"
+       id="rect7" />
+    <rect
+       x="366.92249"
+       y="209.75441"
+       width="94.537201"
+       height="36.633163"
+       id="rect6" />
+    <rect
+       x="371.0585"
+       y="241.66071"
+       width="105.17263"
+       height="36.042309"
+       id="rect5" />
+    <rect
+       x="362.19565"
+       y="250.52357"
+       width="170.16696"
+       height="50.222885"
+       id="rect4" />
+    <rect
+       x="367.51337"
+       y="197.34641"
+       width="79.765755"
+       height="35.45145"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#dc052d;fill-opacity:1;stroke-width:0.258693"
+       id="path1"
+       cx="12.662825"
+       cy="12.428318"
+       rx="11.88116"
+       ry="11.646663" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.7017px;font-family:Papyrus;-inkscape-font-specification:'Papyrus, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3);fill:#ff0000;fill-opacity:1"><tspan
+         x="367.51367"
+         y="258.44581"
+         id="tspan2"><tspan
+           dx="0 17.224733 21.032461 26.519196"
+           id="tspan1">&lt;RM&gt;</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.28422968,0,0,0.44373778,-101.87069,-105.9626)"
+       id="text4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.7017px;font-family:Papyrus;-inkscape-font-specification:'Papyrus, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect4);opacity:1;fill:#f9f9f9;fill-opacity:1"><tspan
+         x="362.19531"
+         y="276.17042"
+         id="tspan3">&lt;RM&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.29858623,-37.206789,-19.732466)"
+       id="text6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.7017px;font-family:'Bradley Hand';-inkscape-font-specification:'Bradley Hand, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6);fill:#ff0000;fill-opacity:1"><tspan
+         x="366.92188"
+         y="271.1183"
+         id="tspan5"><tspan
+           dx="0 25.574463 23.394669 26.956039 25.574463"
+           id="tspan4">&lt;RM&gt;&#10;</tspan></tspan><tspan
+         x="366.92188"
+         y="309.49543"
+         id="tspan6">&gt;</tspan></text>
+  </g>
+</svg>
