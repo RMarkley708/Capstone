@@ -36,6 +36,24 @@ section{
   padding-left: 5%;
 }
 
+/* black links */
+.black-link {
+  color: black;
+}
+
+.black-link:hover {
+  color:#DC052D;
+}
+
+/* white links */
+.white-link {
+  color: #fff;
+}
+
+.white-link:hover {
+  color:#DC052D;
+}
+
 /* -- (welcome bar) branding logo -- */
 .top-branding img{
   display: inline-block;
@@ -1073,7 +1091,7 @@ transform: translateY(-110px) rotateX(90deg);
   .nav-menu.active{
     left: 0%;
   }
-}  
+}
 
 
 
@@ -1083,6 +1101,7 @@ transform: translateY(-110px) rotateX(90deg);
 
   /* ----- mobile view - 350px - 900px  modal/lightbox ----- */
 
+  /* light box */ 
   .top-box {
     width: 14em;
     height: 7em;
@@ -1117,6 +1136,7 @@ transform: translateY(-110px) rotateX(90deg);
     justify-content: center;
     align-items: center;
   }
+}
 
 
   /* ---------------------------------- lightbox section ---------------------------------- */
@@ -1251,7 +1271,7 @@ transform: translateY(-110px) rotateX(90deg);
   font-size: .7em;
   width: 6.5em;
   }
-}
+
 
 
 
