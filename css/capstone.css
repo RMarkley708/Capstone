@@ -1050,6 +1050,7 @@ transform: translateY(-110px) rotateX(90deg);
 .section .btn {
   cursor: pointer;
   background-color: #fff;
+  color: black;
   margin-top: 1em;
   margin-bottom: .10em;
   margin-right: 3em;
