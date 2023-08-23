@@ -41,6 +41,10 @@ section{
   padding-left: 5%;
 }
 
+a {
+  color: black;
+}
+
 a:visited {
   color: black;
 }
